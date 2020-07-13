@@ -1,3 +1,3 @@
 #!/bin/bash 
 #This is for Linux or MacOS Deployment
-java -Xmx4G -Xms5G -jar paper-90.jar gui
+java -Xmx1G -Xms1G -jar paper-90.jar gui
