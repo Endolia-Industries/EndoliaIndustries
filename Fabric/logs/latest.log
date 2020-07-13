@@ -1,126 +1,34 @@
-[11:32:02] [main/INFO]: Loading for game Minecraft 1.16.1
-[11:32:03] [main/INFO]: [FabricLoader] Loading 55 mods: fabric-renderer-api-v1@0.2.13+eae12eb802, fabric-keybindings-v0@0.2.0+3fa9f7c502, fabricloader@0.8.9+build.203, com_fasterxml_jackson_core_jackson-annotations@2.9.0, org_javacord_javacord-api@3.0.6, org_javacord_javacord-core@3.0.6, lithium@0.5.1, fabric-containers-v0@0.1.8+045df74f02, fabric-dimensions-v1@1.0.0+a71b305302, fabric-object-builder-api-v1@1.5.5+e00ecb5f02, com_squareup_okio_okio@1.13.0, fabric-api-base@0.1.3+12a8474c02, fabric-rendering-data-attachment-v1@0.1.3+b7f9825d02, fabric-textures-v0@1.0.4+eae12eb802, fabric-rendering-fluids-v1@0.1.8+b7084faa02, com_fasterxml_jackson_core_jackson-databind@2.9.3, com_neovisionaries_nv-websocket-client@2.6, fabric-blockrenderlayer-v1@1.1.4+c6a8ea8902, fabric-lifecycle-events-v1@1.0.0+b0993bc102, fabric-renderer-registries-v1@2.0.1+5a0f9a6002, com_vdurmont_emoji-java@5.1.1, fabric-loot-tables-v1@0.1.10+059ea86602, com_fasterxml_jackson_core_jackson-core@2.9.3, fabric@0.14.1+build.372-1.16, fabric-particles-v1@0.2.1+0a6f2a7002, fabric-networking-v0@0.1.10+e00ecb5f02, minecraft@1.16.1, fabric-screen-handler-api-v1@1.0.1+f362c86e02, fabric-networking-blockentity-v0@0.2.5+b50ffc7b02, fabric-command-api-v1@1.0.8+5ce5339802, com_squareup_okhttp3_logging-interceptor@3.9.1, phosphor@0.6.0+build.7, fabric-tool-attribute-api-v1@1.1.4+5794386e02, fabric-renderer-indigo@0.3.2+4d66bed502, fabric-biomes-v1@0.2.7+059ea86602, fabric-crash-report-info-v1@0.1.2+b7f9825d02, fabric-events-interaction-v0@0.3.3+7066030f02, fabric-item-api-v1@1.0.0+16acbe5b02, fabric-rendering-v0@1.1.0+5341049002, fabric-rendering-v1@1.1.2+346247d702, fabric-key-binding-api-v1@1.0.0+e16a977402, fabric-resource-loader-v0@0.2.6+f41e209802, fabric-content-registries-v0@0.1.9+059ea86602, org_json_json@20170516, fabric-tag-extensions-v0@0.2.7+a4c57d8e02, fabric-commands-v0@0.2.0+52d3083602, fabric-registry-sync-v0@0.3.8+7dba2d6c02, com_squareup_okhttp3_okhttp@3.9.1, fabric-mining-levels-v0@0.1.2+b764ce9902, org_apache_logging_log4j_log4j-api@2.11.0, fabric-events-lifecycle-v0@0.2.0+16acbe5b02, fabric-item-groups-v0@0.2.0+438f963602, fabric-models-v0@0.1.0+dfdb52d602, fdlink@0.4.2, fabric-object-builders-v0@0.6.0+da175ad602
-[11:32:04] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8 Source=file:/Users/Ty/github/EndoliaIndustries/Fabric/fabric-server-launch.jar Service=Knot/Fabric Env=SERVER
-[11:32:07] [main/WARN]: @Mixin target net/minecraft/class_3898$class_3208 is public in fabric-networking-[11:32:19] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', name='PROD'
-[11:32:19] [main/ERROR]: [FDLink] Please add a bot token to the config file!
-[11:32:20] [main/WARN]: Missing data pack file/VanillaTweaks_c373657.zip
-[11:32:20] [main/INFO]: Found new data pack fabric/fabric-tool-attribute-api-v1, loading it automatically
-[11:32:20] [main/INFO]: Found new data pack file/afk display v1.0.1, loading it automatically
-[11:32:20] [main/INFO]: Found new data pack file/armor statues v2.7.1, loading it automatically
-[11:32:20] [main/INFO]: Found new data pack file/double shulker shells v1.2.0, loading it automatically
-[11:32:20] [main/INFO]: Found new data pack file/durability ping v1.1.0, loading it automatically
-[11:32:20] [main/INFO]: Found new data pack file/multiplayer sleep v1.0.2, loading it automatically
-[11:32:20] [main/INFO]: Found new data pack file/player head drops v1.0.0, loading it automatically
-[11:32:20] [main/INFO]: Found new data pack file/spectator conduit power v1.0.0, loading it automatically
-[11:32:20] [main/INFO]: Found new data pack file/spectator night vision v1.0.0, loading it automatically
-[11:32:20] [main/INFO]: Found new data pack file/track raw statistics v1.3.0, loading it automatically
-[11:32:20] [main/INFO]: Found new data pack file/track statistics v1.0.1, loading it automatically
-[11:32:20] [main/INFO]: Found new data pack file/wandering trades v1.2.1, loading it automatically
-[11:32:21] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[11:32:21] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[11:32:21] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[11:32:21] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[11:32:21] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[11:32:21] [main/INFO]: Reloading ResourceManager: Default, Fabric Tool Attribute API (v1), afk display v1.0.1, armor statues v2.7.1, double shulker shells v1.2.0, durability ping v1.1.0, multiplayer sleep v1.0.2, player head drops v1.0.0, spectator conduit power v1.0.0, spectator night vision v1.0.0, track raw statistics v1.3.0, track statistics v1.0.1, wandering trades v1.2.1
-[11:32:27] [Worker-Main-4/INFO]: Loaded 7 recipes
-[11:32:28] [Worker-Main-4/WARN]: Found validation problem in {minecraft:entities/shulker}.pools[0].entries[0]: Unknown loot table called vanilla:entities/shulker
-[11:32:28] [Worker-Main-4/WARN]: Found validation problem in {minecraft:entities/shulker}.pools[1].entries[0]: Unknown loot table called minecraft:entities/reference/mmh/shulker
-[11:32:28] [Worker-Main-4/INFO]: Loaded 977 advancements
-[11:32:35] [Server thread/INFO]: Starting minecraft server version 1.16.1
-[11:32:35] [Server thread/INFO]: Loading properties
-[11:32:35] [Server thread/INFO]: Default game type: SURVIVAL
-[11:32:35] [Server thread/INFO]: Generating keypair
-[11:32:36] [Server thread/INFO]: Starting Minecraft server on *:25565
-[11:32:36] [Server thread/INFO]: Using default channel type
-[11:32:37] [Server thread/INFO]: Preparing level "world"
-[11:32:39] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[11:32:43] [Server thread/INFO]: Preparing spawn area: 0%
-[11:32:44] [Server thread/INFO]: Preparing spawn area: 0%
-[11:32:44] [Server thread/INFO]: Preparing spawn area: 0%
-[11:32:44] [Server thread/INFO]: Preparing spawn area: 0%
-[11:32:44] [Server thread/INFO]: Preparing spawn area: 0%
-[11:32:44] [Server thread/INFO]: Preparing spawn area: 0%
-[11:32:44] [Server thread/INFO]: Preparing spawn area: 0%
-[11:32:44] [Server thread/INFO]: Preparing spawn area: 0%
-[11:32:44] [Server thread/INFO]: Preparing spawn area: 0%
-[11:32:44] [Server thread/INFO]: Preparing spawn area: 0%
-[11:32:44] [Server thread/INFO]: Preparing spawn area: 0%
-[11:32:44] [Server thread/INFO]: Preparing spawn area: 0%
-[11:32:45] [Server thread/INFO]: Preparing spawn area: 7%
-[11:33:00] [Worker-Main-6/INFO]: Preparing spawn area: 83%
-[11:33:00] [Worker-Main-5/INFO]: Preparing spawn area: 83%
-[11:33:00] [Worker-Main-4/INFO]: Preparing spawn area: 83%
-[11:33:00] [Worker-Main-5/INFO]: Preparing spawn area: 83%
-[11:33:00] [Worker-Main-4/INFO]: Preparing spawn area: 83%
-[11:33:00] [Worker-Main-5/INFO]: Preparing spawn area: 83%
-[11:33:00] [Worker-Main-5/INFO]: Preparing spawn area: 83%
-[11:33:00] [Worker-Main-5/INFO]: Preparing spawn area: 83%
-[11:33:00] [Worker-Main-4/INFO]: Preparing spawn area: 83%
-[11:33:00] [Worker-Main-4/INFO]: Preparing spawn area: 83%
-[11:33:00] [Worker-Main-4/INFO]: Preparing spawn area: 83%
-[11:33:00] [Worker-Main-4/INFO]: Preparing spawn area: 83%
-[11:33:00] [Worker-Main-4/INFO]: Preparing spawn area: 83%
-[11:33:00] [Worker-Main-4/INFO]: Preparing spawn area: 83%
-[11:33:00] [Worker-Main-4/INFO]: Preparing spawn area: 83%
-[11:33:00] [Worker-Main-4/INFO]: Preparing spawn area: 83%
-[11:33:00] [Worker-Main-5/INFO]: Preparing spawn area: 83%
-[11:33:00] [Worker-Main-4/INFO]: Preparing spawn area: 83%
-[11:33:00] [Worker-Main-4/INFO]: Preparing spawn area: 83%
-[11:33:00] [Worker-Main-4/INFO]: Preparing spawn area: 83%
-[11:33:00] [Worker-Main-4/INFO]: Preparing spawn area: 83%
-[11:33:00] [Worker-Main-4/INFO]: Preparing spawn area: 83%
-[11:33:00] [Worker-Main-4/INFO]: Preparing spawn area: 83%
-[11:33:00] [Worker-Main-4/INFO]: Preparing spawn area: 83%
-[11:33:00] [Worker-Main-4/INFO]: Preparing spawn area: 83%
-[11:33:00] [Worker-Main-4/INFO]: Preparing spawn area: 83%
-[11:33:00] [Worker-Main-4/INFO]: Preparing spawn area: 83%
-[11:33:00] [Worker-Main-4/INFO]: Preparing spawn area: 83%
-[11:33:00] [Worker-Main-4/INFO]: Preparing spawn area: 83%
-[11:33:00] [Worker-Main-5/INFO]: Preparing spawn area: 83%
-[11:33:00] [Worker-Main-5/INFO]: Preparing spawn area: 83%
-[11:33:01] [Worker-Main-4/INFO]: Preparing spawn area: 83%
-[11:33:01] [Worker-Main-6/INFO]: Preparing spawn area: 83%
-[11:33:03] [Worker-Main-6/INFO]: Preparing spawn area: 83%
-[11:33:03] [Worker-Main-4/INFO]: Preparing spawn area: 83%
-[11:33:03] [Worker-Main-4/INFO]: Preparing spawn area: 83%
-[11:33:03] [Worker-Main-6/INFO]: Preparing spawn area: 83%
-[11:33:04] [Worker-Main-6/INFO]: Preparing spawn area: 83%
-[11:33:04] [Worker-Main-5/INFO]: Preparing spawn area: 83%
-[11:33:05] [Worker-Main-5/INFO]: Preparing spawn area: 83%
-[11:33:05] [Worker-Main-5/INFO]: Preparing spawn area: 83%
-[11:33:06] [Worker-Main-4/INFO]: Preparing spawn area: 83%
-[11:33:06] [Worker-Main-4/INFO]: Preparing spawn area: 83%
-[11:33:07] [Worker-Main-6/INFO]: Preparing spawn area: 83%
-[11:33:07] [Worker-Main-4/INFO]: Preparing spawn area: 83%
-[11:33:08] [Worker-Main-5/INFO]: Preparing spawn area: 83%
-[11:33:08] [Worker-Main-5/INFO]: Preparing spawn area: 83%
-[11:33:09] [Worker-Main-6/INFO]: Preparing spawn area: 83%
-[11:33:09] [Worker-Main-5/INFO]: Preparing spawn area: 84%
-[11:33:10] [Worker-Main-5/INFO]: Preparing spawn area: 84%
-[11:33:10] [Worker-Main-4/INFO]: Preparing spawn area: 84%
-[11:33:11] [Server thread/INFO]: Preparing spawn area: 84%
-[11:33:11] [Worker-Main-4/INFO]: Preparing spawn area: 85%
-[11:33:12] [Worker-Main-6/INFO]: Preparing spawn area: 86%
-[11:33:12] [Worker-Main-4/INFO]: Preparing spawn area: 88%
-[11:33:13] [Worker-Main-4/INFO]: Preparing spawn area: 89%
-[11:33:13] [Worker-Main-4/INFO]: Preparing spawn area: 89%
-[11:33:14] [Worker-Main-5/INFO]: Preparing spawn area: 90%
-[11:33:14] [Worker-Main-5/INFO]: Preparing spawn area: 90%
-[11:33:15] [Worker-Main-6/INFO]: Preparing spawn area: 93%
-[11:33:15] [Server thread/INFO]: Preparing spawn area: 93%
-[11:33:16] [Server thread/INFO]: Preparing spawn area: 97%
-[11:33:16] [Server thread/INFO]: Time elapsed: 37639 ms
-[11:33:16] [Server thread/INFO]: Done (39.072s)! For help, type "help"
-[11:33:36] [Server thread/INFO]: Stopping the server
-[11:33:36] [Server thread/INFO]: Stopping server
-[11:33:36] [Server thread/INFO]: Saving players
-[11:33:36] [Server thread/INFO]: Saving worlds
-[11:33:36] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[11:33:38] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[11:33:38] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[11:33:38] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[11:33:38] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[11:33:38] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[11:33:38] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[11:33:38] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[11:33:38] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[11:37:27] [main/INFO]: Loading for game Minecraft 1.16.1
+[11:37:29] [main/INFO]: [FabricLoader] Loading 55 mods: fabric-renderer-api-v1@0.2.13+eae12eb802, fabric-keybindings-v0@0.2.0+3fa9f7c502, fabricloader@0.8.9+build.203, com_fasterxml_jackson_core_jackson-annotations@2.9.0, org_javacord_javacord-api@3.0.6, org_javacord_javacord-core@3.0.6, lithium@0.5.1, fabric-containers-v0@0.1.8+045df74f02, fabric-object-builder-api-v1@1.5.5+e00ecb5f02, fabric-dimensions-v1@1.0.0+a71b305302, com_squareup_okio_okio@1.13.0, fabric-api-base@0.1.3+12a8474c02, fabric-rendering-data-attachment-v1@0.1.3+b7f9825d02, fabric-textures-v0@1.0.4+eae12eb802, fabric-rendering-fluids-v1@0.1.8+b7084faa02, com_fasterxml_jackson_core_jackson-databind@2.9.3, com_neovisionaries_nv-websocket-client@2.6, fabric-blockrenderlayer-v1@1.1.4+c6a8ea8902, fabric-lifecycle-events-v1@1.0.0+b0993bc102, fabric-renderer-registries-v1@2.0.1+5a0f9a6002, com_vdurmont_emoji-java@5.1.1, fabric-loot-tables-v1@0.1.10+059ea86602, com_fasterxml_jackson_core_jackson-core@2.9.3, fabric@0.14.1+build.372-1.16, fabric-particles-v1@0.2.1+0a6f2a7002, fabric-networking-v0@0.1.10+e00ecb5f02, minecraft@1.16.1, fabric-screen-handler-api-v1@1.0.1+f362c86e02, fabric-networking-blockentity-v0@0.2.5+b50ffc7b02, fabric-command-api-v1@1.0.8+5ce5339802, com_squareup_okhttp3_logging-interceptor@3.9.1, phosphor@0.6.0+build.7, fabric-tool-attribute-api-v1@1.1.4+5794386e02, fabric-renderer-indigo@0.3.2+4d66bed502, fabric-biomes-v1@0.2.7+059ea86602, fabric-crash-report-info-v1@0.1.2+b7f9825d02, fabric-events-interaction-v0@0.3.3+7066030f02, fabric-item-api-v1@1.0.0+16acbe5b02, fabric-rendering-v0@1.1.0+5341049002, fabric-rendering-v1@1.1.2+346247d702, fabric-key-binding-api-v1@1.0.0+e16a977402, fabric-resource-loader-v0@0.2.6+f41e209802, fabric-content-registries-v0@0.1.9+059ea86602, org_json_json@20170516, fabric-tag-extensions-v0@0.2.7+a4c57d8e02, fabric-commands-v0@0.2.0+52d3083602, fabric-registry-sync-v0@0.3.8+7dba2d6c02, com_squareup_okhttp3_okhttp@3.9.1, fabric-mining-levels-v0@0.1.2+b764ce9902, org_apache_logging_log4j_log4j-api@2.11.0, fabric-events-lifecycle-v0@0.2.0+16acbe5b02, fabric-models-v0@0.1.0+dfdb52d602, fabric-item-groups-v0@0.2.0+438f963602, fabric-object-builders-v0@0.6.0+da175ad602, fdlink@0.4.2
+[11:37:29] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8 Source=file:/Users/Ty/github/EndoliaIndustries/Fabric/fabric-server-launch.jar Service=Knot/Fabric Env=SERVER
+[11:37:33] [main/WARN]: @Mixin target net/minecraft/class_3898$class_3208 is public in fabric-networking-[11:37:44] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', name='PROD'
+[11:37:44] [main/ERROR]: [FDLink] Please add a bot token to the config file!
+[11:37:45] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[11:37:45] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[11:37:45] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[11:37:45] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[11:37:45] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[11:37:45] [main/INFO]: Reloading ResourceManager: Default, Fabric Tool Attribute API (v1), afk display v1.0.1, armor statues v2.7.1, double shulker shells v1.2.0, durability ping v1.1.0, multiplayer sleep v1.0.2, player head drops v1.0.0, spectator conduit power v1.0.0, spectator night vision v1.0.0, track raw statistics v1.3.0, track statistics v1.0.1, wandering trades v1.2.1
+[11:37:50] [Worker-Main-4/INFO]: Loaded 7 recipes
+[11:37:51] [Worker-Main-4/WARN]: Found validation problem in {minecraft:entities/shulker}.pools[0].entries[0]: Unknown loot table called vanilla:entities/shulker
+[11:37:51] [Worker-Main-4/WARN]: Found validation problem in {minecraft:entities/shulker}.pools[1].entries[0]: Unknown loot table called minecraft:entities/reference/mmh/shulker
+[11:37:51] [Worker-Main-4/INFO]: Loaded 977 advancements
+[11:37:56] [Server thread/INFO]: Starting minecraft server version 1.16.1
+[11:37:56] [Server thread/INFO]: Loading properties
+[11:37:56] [Server thread/INFO]: Default game type: SURVIVAL
+[11:37:56] [Server thread/INFO]: Generating keypair
+[11:37:57] [Server thread/INFO]: Starting Minecraft server on *:25565
+[11:37:57] [Server thread/INFO]: Using default channel type
+[11:37:58] [Server thread/INFO]: Preparing level "world"
+[11:37:59] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[11:38:04] [Server thread/INFO]: Preparing spawn area: 0%
+[11:38:04] [Server thread/INFO]: Preparing spawn area: 0%
+[11:38:04] [Server thread/INFO]: Preparing spawn area: 0%
+[11:38:04] [Server thread/INFO]: Preparing spawn area: 0%
+[11:38:04] [Server thread/INFO]: Preparing spawn area: 0%
+[11:38:04] [Server thread/INFO]: Preparing spawn area: 0%
+[11:38:04] [Server thread/INFO]: Preparing spawn area: 0%
+[11:38:04] [Server thread/INFO]: Preparing spawn area: 0%
+[11:38:04] [Server thread/INFO]: Preparing spawn area: 0%
+[11:38:05] [Server thread/INFO]: Preparing spawn area: 0%
+[11:38:05] [Server thread/INFO]: Preparing spawn area: 0%
