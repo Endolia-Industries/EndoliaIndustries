@@ -1,0 +1,48 @@
+{
+  "token": "",
+  "chatChannels": [],
+  "logChannels": [],
+  "ignoreBots": true,
+  "minecraftToDiscord": {
+    "messages": {
+      "serverStarting": "Server is starting !",
+      "serverStarted": "Server Started",
+      "serverStopped": "Server Stopped",
+      "playerJoined": "%player joined the game",
+      "playerJoinedRenamed": "%new (formerly known as %old) joined the game",
+      "playerLeft": "%player left the game",
+      "advancementTask": "%player has made the advancement %advancement",
+      "advancementChallenge": "%player has made the challenge %advancement",
+      "advancementGoal": "%player has made the goal %advancement"
+    },
+    "booleans": {
+      "serverStartingMessage": true,
+      "serverStartMessage": true,
+      "serverStopMessage": true,
+      "customChannelDescription": false,
+      "minecraftToDiscordTag": false,
+      "minecraftToDiscordDiscriminator": false,
+      "playerMessages": true,
+      "joinAndLeftMessages": true,
+      "advancementMessages": true,
+      "deathMessages": true,
+      "sendMeCommand": true,
+      "sendSayCommand": true,
+      "adminMessages": true
+    }
+  },
+  "discordToMinecraft": {
+    "pingLongVersion": false,
+    "message": "[%player] %message"
+  },
+  "emojiMap": [
+    {
+      "name": "example_name",
+      "id": ":example_id:22222222"
+    },
+    {
+      "name": "example_name2",
+      "id": ":example_id2:22222222"
+    }
+  ]
+}

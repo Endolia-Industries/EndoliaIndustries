@@ -1,0 +1,28 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:armor_stand"
+        },
+        "title": {
+            "text": "Armour Statues",
+            "color": "white",
+            "bold": false,
+            "italic": false
+        },
+        "description": {
+            "text": "Customise armour stands using a book of clickable links",
+            "color": "green",
+            "bold": false,
+            "italic": true
+        },
+        "show_toast": false,
+        "announce_to_chat": false,
+        "frame": "goal"
+    },
+    "parent": "main:main/root",
+    "criteria": {
+        "tick": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}
