@@ -1,11 +1,11 @@
 {
-  "token": "Njg5MTgzMjY1OTY1NjA0OTkz.Xwx_Sw.BlQlKmUJqRcbvCR56jc400SfZGM",
+  "token": "",
   "chatChannels": [689180744844705824],
   "logChannels": [681893592335253505],
   "ignoreBots": true,
   "minecraftToDiscord": {
     "messages": {
-      "serverStarting": "Server is starting !",
+      "serverStarting": "Server is being !",
       "serverStarted": "Server Started",
       "serverStopped": "Server Stopped",
       "playerJoined": "%player joined the game",
