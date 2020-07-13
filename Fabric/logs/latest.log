@@ -1,34 +1,46 @@
-[11:37:27] [main/INFO]: Loading for game Minecraft 1.16.1
-[11:37:29] [main/INFO]: [FabricLoader] Loading 55 mods: fabric-renderer-api-v1@0.2.13+eae12eb802, fabric-keybindings-v0@0.2.0+3fa9f7c502, fabricloader@0.8.9+build.203, com_fasterxml_jackson_core_jackson-annotations@2.9.0, org_javacord_javacord-api@3.0.6, org_javacord_javacord-core@3.0.6, lithium@0.5.1, fabric-containers-v0@0.1.8+045df74f02, fabric-object-builder-api-v1@1.5.5+e00ecb5f02, fabric-dimensions-v1@1.0.0+a71b305302, com_squareup_okio_okio@1.13.0, fabric-api-base@0.1.3+12a8474c02, fabric-rendering-data-attachment-v1@0.1.3+b7f9825d02, fabric-textures-v0@1.0.4+eae12eb802, fabric-rendering-fluids-v1@0.1.8+b7084faa02, com_fasterxml_jackson_core_jackson-databind@2.9.3, com_neovisionaries_nv-websocket-client@2.6, fabric-blockrenderlayer-v1@1.1.4+c6a8ea8902, fabric-lifecycle-events-v1@1.0.0+b0993bc102, fabric-renderer-registries-v1@2.0.1+5a0f9a6002, com_vdurmont_emoji-java@5.1.1, fabric-loot-tables-v1@0.1.10+059ea86602, com_fasterxml_jackson_core_jackson-core@2.9.3, fabric@0.14.1+build.372-1.16, fabric-particles-v1@0.2.1+0a6f2a7002, fabric-networking-v0@0.1.10+e00ecb5f02, minecraft@1.16.1, fabric-screen-handler-api-v1@1.0.1+f362c86e02, fabric-networking-blockentity-v0@0.2.5+b50ffc7b02, fabric-command-api-v1@1.0.8+5ce5339802, com_squareup_okhttp3_logging-interceptor@3.9.1, phosphor@0.6.0+build.7, fabric-tool-attribute-api-v1@1.1.4+5794386e02, fabric-renderer-indigo@0.3.2+4d66bed502, fabric-biomes-v1@0.2.7+059ea86602, fabric-crash-report-info-v1@0.1.2+b7f9825d02, fabric-events-interaction-v0@0.3.3+7066030f02, fabric-item-api-v1@1.0.0+16acbe5b02, fabric-rendering-v0@1.1.0+5341049002, fabric-rendering-v1@1.1.2+346247d702, fabric-key-binding-api-v1@1.0.0+e16a977402, fabric-resource-loader-v0@0.2.6+f41e209802, fabric-content-registries-v0@0.1.9+059ea86602, org_json_json@20170516, fabric-tag-extensions-v0@0.2.7+a4c57d8e02, fabric-commands-v0@0.2.0+52d3083602, fabric-registry-sync-v0@0.3.8+7dba2d6c02, com_squareup_okhttp3_okhttp@3.9.1, fabric-mining-levels-v0@0.1.2+b764ce9902, org_apache_logging_log4j_log4j-api@2.11.0, fabric-events-lifecycle-v0@0.2.0+16acbe5b02, fabric-models-v0@0.1.0+dfdb52d602, fabric-item-groups-v0@0.2.0+438f963602, fabric-object-builders-v0@0.6.0+da175ad602, fdlink@0.4.2
-[11:37:29] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8 Source=file:/Users/Ty/github/EndoliaIndustries/Fabric/fabric-server-launch.jar Service=Knot/Fabric Env=SERVER
-[11:37:33] [main/WARN]: @Mixin target net/minecraft/class_3898$class_3208 is public in fabric-networking-[11:37:44] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', name='PROD'
-[11:37:44] [main/ERROR]: [FDLink] Please add a bot token to the config file!
-[11:37:45] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[11:37:45] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[11:37:45] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[11:37:45] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[11:37:45] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[11:37:45] [main/INFO]: Reloading ResourceManager: Default, Fabric Tool Attribute API (v1), afk display v1.0.1, armor statues v2.7.1, double shulker shells v1.2.0, durability ping v1.1.0, multiplayer sleep v1.0.2, player head drops v1.0.0, spectator conduit power v1.0.0, spectator night vision v1.0.0, track raw statistics v1.3.0, track statistics v1.0.1, wandering trades v1.2.1
-[11:37:50] [Worker-Main-4/INFO]: Loaded 7 recipes
-[11:37:51] [Worker-Main-4/WARN]: Found validation problem in {minecraft:entities/shulker}.pools[0].entries[0]: Unknown loot table called vanilla:entities/shulker
-[11:37:51] [Worker-Main-4/WARN]: Found validation problem in {minecraft:entities/shulker}.pools[1].entries[0]: Unknown loot table called minecraft:entities/reference/mmh/shulker
-[11:37:51] [Worker-Main-4/INFO]: Loaded 977 advancements
-[11:37:56] [Server thread/INFO]: Starting minecraft server version 1.16.1
-[11:37:56] [Server thread/INFO]: Loading properties
-[11:37:56] [Server thread/INFO]: Default game type: SURVIVAL
-[11:37:56] [Server thread/INFO]: Generating keypair
-[11:37:57] [Server thread/INFO]: Starting Minecraft server on *:25565
-[11:37:57] [Server thread/INFO]: Using default channel type
-[11:37:58] [Server thread/INFO]: Preparing level "world"
-[11:37:59] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[11:38:04] [Server thread/INFO]: Preparing spawn area: 0%
-[11:38:04] [Server thread/INFO]: Preparing spawn area: 0%
-[11:38:04] [Server thread/INFO]: Preparing spawn area: 0%
-[11:38:04] [Server thread/INFO]: Preparing spawn area: 0%
-[11:38:04] [Server thread/INFO]: Preparing spawn area: 0%
-[11:38:04] [Server thread/INFO]: Preparing spawn area: 0%
-[11:38:04] [Server thread/INFO]: Preparing spawn area: 0%
-[11:38:04] [Server thread/INFO]: Preparing spawn area: 0%
-[11:38:04] [Server thread/INFO]: Preparing spawn area: 0%
-[11:38:05] [Server thread/INFO]: Preparing spawn area: 0%
-[11:38:05] [Server thread/INFO]: Preparing spawn area: 0%
+[11:42:38] [main/INFO]: Loading for game Minecraft 1.16.1
+[11:42:39] [main/INFO]: [FabricLoader] Loading 55 mods: fabric-renderer-api-v1@0.2.13+eae12eb802, fabric-keybindings-v0@0.2.0+3fa9f7c502, fabricloader@0.8.9+build.203, com_fasterxml_jackson_core_jackson-annotations@2.9.0, org_javacord_javacord-api@3.0.6, org_javacord_javacord-core@3.0.6, lithium@0.5.1, fabric-containers-v0@0.1.8+045df74f02, fabric-dimensions-v1@1.0.0+a71b305302, fabric-object-builder-api-v1@1.5.5+e00ecb5f02, com_squareup_okio_okio@1.13.0, fabric-api-base@0.1.3+12a8474c02, fabric-rendering-data-attachment-v1@0.1.3+b7f9825d02, fabric-textures-v0@1.0.4+eae12eb802, fabric-rendering-fluids-v1@0.1.8+b7084faa02, com_fasterxml_jackson_core_jackson-databind@2.9.3, com_neovisionaries_nv-websocket-client@2.6, fabric-blockrenderlayer-v1@1.1.4+c6a8ea8902, fabric-lifecycle-events-v1@1.0.0+b0993bc102, fabric-renderer-registries-v1@2.0.1+5a0f9a6002, com_vdurmont_emoji-java@5.1.1, fabric-loot-tables-v1@0.1.10+059ea86602, com_fasterxml_jackson_core_jackson-core@2.9.3, fabric@0.14.1+build.372-1.16, fabric-particles-v1@0.2.1+0a6f2a7002, fabric-networking-v0@0.1.10+e00ecb5f02, fabric-screen-handler-api-v1@1.0.1+f362c86e02, minecraft@1.16.1, fabric-networking-blockentity-v0@0.2.5+b50ffc7b02, fabric-command-api-v1@1.0.8+5ce5339802, com_squareup_okhttp3_logging-interceptor@3.9.1, phosphor@0.6.0+build.7, fabric-tool-attribute-api-v1@1.1.4+5794386e02, fabric-renderer-indigo@0.3.2+4d66bed502, fabric-biomes-v1@0.2.7+059ea86602, fabric-crash-report-info-v1@0.1.2+b7f9825d02, fabric-events-interaction-v0@0.3.3+7066030f02, fabric-item-api-v1@1.0.0+16acbe5b02, fabric-rendering-v0@1.1.0+5341049002, fabric-rendering-v1@1.1.2+346247d702, fabric-key-binding-api-v1@1.0.0+e16a977402, fabric-resource-loader-v0@0.2.6+f41e209802, org_json_json@20170516, fabric-content-registries-v0@0.1.9+059ea86602, fabric-tag-extensions-v0@0.2.7+a4c57d8e02, fabric-commands-v0@0.2.0+52d3083602, fabric-registry-sync-v0@0.3.8+7dba2d6c02, com_squareup_okhttp3_okhttp@3.9.1, fabric-mining-levels-v0@0.1.2+b764ce9902, org_apache_logging_log4j_log4j-api@2.11.0, fabric-events-lifecycle-v0@0.2.0+16acbe5b02, fabric-item-groups-v0@0.2.0+438f963602, fabric-models-v0@0.1.0+dfdb52d602, fdlink@0.4.2, fabric-object-builders-v0@0.6.0+da175ad602
+[11:42:40] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8 Source=file:/Users/Ty/github/EndoliaIndustries/Fabric/fabric-server-launch.jar Service=Knot/Fabric Env=SERVER
+[11:42:44] [main/WARN]: @Mixin target net/minecraft/class_3898$class_3208 is public in fabric-networking-[11:42:58] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', name='PROD'
+[11:43:02] [WritingThread/INFO]: Websocket closed with reason 'Authentication failed.' and code AUTHENTICATION_FAILED (4004) by server!
+[11:43:02] [main/FATAL]: Failed to start the minecraft server
+java.lang.RuntimeException: Could not execute entrypoint stage 'server' due to errors, provided by 'fdlink'!
+	at net.fabricmc.loader.entrypoint.minecraft.hooks.EntrypointUtils.invoke0(EntrypointUtils.java:53) ~[fabric-server-launch.jar:?]
+	at net.fabricmc.loader.entrypoint.minecraft.hooks.EntrypointUtils.invoke(EntrypointUtils.java:36) ~[fabric-server-launch.jar:?]
+	at net.fabricmc.loader.entrypoint.minecraft.hooks.EntrypointServer.start(EntrypointServer.java:33) ~[fabric-server-launch.jar:?]
+	at net.minecraft.server.Main.main(Main.java:125) [intermediary-server.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at net.fabricmc.loader.game.MinecraftGameProvider.launch(MinecraftGameProvider.java:192) [fabric-server-launch.jar:?]
+	at net.fabricmc.loader.launch.knot.Knot.init(Knot.java:140) [fabric-server-launch.jar:?]
+	at net.fabricmc.loader.launch.knot.KnotServer.main(KnotServer.java:26) [fabric-server-launch.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at net.fabricmc.loader.launch.server.FabricServerLauncher.launch(FabricServerLauncher.java:61) [fabric-server-launch.jar:?]
+	at net.fabricmc.loader.launch.server.FabricServerLauncher.setup(FabricServerLauncher.java:105) [fabric-server-launch.jar:?]
+	at net.fabricmc.loader.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:49) [fabric-server-launch.jar:?]
+Caused by: java.util.concurrent.CompletionException: java.lang.IllegalStateException: Websocket closed before READY packet was received!
+	at java.util.concurrent.CompletableFuture.reportJoin(CompletableFuture.java:412) ~[?:?]
+	at java.util.concurrent.CompletableFuture.join(CompletableFuture.java:2115) ~[?:?]
+	at fr.arthurbambou.fdlink.discordstuff.DiscordBot.<init>(DiscordBot.java:72) ~[FDLink-0.4.2.jar:?]
+	at fr.arthurbambou.fdlink.FDLink.onInitializeServer(FDLink.java:27) ~[FDLink-0.4.2.jar:?]
+	at net.fabricmc.loader.entrypoint.minecraft.hooks.EntrypointUtils.invoke0(EntrypointUtils.java:50) ~[fabric-server-launch.jar:?]
+	... 17 more
+Caused by: java.lang.IllegalStateException: Websocket closed before READY packet was received!
+	at org.javacord.core.DiscordApiImpl.lambda$new$6(DiscordApiImpl.java:529) ~[337c1f57-9d2d-43e5-ac8d-44dc34f952d2.jar:?]
+	at java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:859) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(CompletableFuture.java:837) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506) ~[?:?]
+	at java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:2144) ~[?:?]
+	at org.javacord.core.util.gateway.DiscordWebSocketAdapter.onDisconnected(DiscordWebSocketAdapter.java:464) ~[337c1f57-9d2d-43e5-ac8d-44dc34f952d2.jar:?]
+	at com.neovisionaries.ws.client.ListenerManager.callOnDisconnected(ListenerManager.java:223) ~[17cf1113-ca69-41a6-b9dc-0d8ea6ac2e98.jar:?]
+	at com.neovisionaries.ws.client.WebSocket.finish(WebSocket.java:3713) ~[17cf1113-ca69-41a6-b9dc-0d8ea6ac2e98.jar:?]
+	at com.neovisionaries.ws.client.WebSocket.onThreadsFinished(WebSocket.java:3683) ~[17cf1113-ca69-41a6-b9dc-0d8ea6ac2e98.jar:?]
+	at com.neovisionaries.ws.client.WebSocket.onWritingThreadFinished(WebSocket.java:3672) ~[17cf1113-ca69-41a6-b9dc-0d8ea6ac2e98.jar:?]
+	at com.neovisionaries.ws.client.WritingThread.notifyFinished(WritingThread.java:539) ~[17cf1113-ca69-41a6-b9dc-0d8ea6ac2e98.jar:?]
+	at com.neovisionaries.ws.client.WritingThread.runMain(WritingThread.java:78) ~[17cf1113-ca69-41a6-b9dc-0d8ea6ac2e98.jar:?]
+	at com.neovisionaries.ws.client.WebSocketThread.run(WebSocketThread.java:45) ~[17cf1113-ca69-41a6-b9dc-0d8ea6ac2e98.jar:?]
