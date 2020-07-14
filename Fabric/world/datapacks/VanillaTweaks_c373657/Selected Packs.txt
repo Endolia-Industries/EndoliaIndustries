@@ -1,0 +1,14 @@
+Vanilla Tweaks Crafting Tweaks
+Version: 1.16
+Packs:
+	back to blocks v1.2.0
+	dropper to dispenser v1.1.1
+	universal dyeing v1.2.0
+	blackstone cobblestone v1.0.0
+	more trapdoors v1.1.0
+	more bark v1.1.0
+	more stairs v1.3.0
+	more bricks v1.0.0
+	unpackable ice v1.0.0
+	unpackable nether wart v1.0.0
+	unpackable wool v1.0.0

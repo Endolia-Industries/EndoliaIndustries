@@ -1,0 +1,30 @@
+{
+  "condition": "minecraft:alternative",
+  "terms": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "offhand": {
+            "tag": "as:potions",
+	        "potion": "minecraft:invisibility"
+          }
+        }
+      }
+    },
+	{
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "offhand": {
+            "tag": "as:potions",
+	        "potion": "minecraft:long_invisibility"
+          }
+        }
+      }
+    }
+    
+  ]
+}
